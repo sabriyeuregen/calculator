@@ -1,0 +1,65 @@
+.screen{
+    background: #E5E5E5;
+}
+.screen__history-icon{
+    position: absolute;
+    width: 30px;
+    height: 30px;
+    left: 359px;
+    top: 59px;
+    cursor:pointer;
+}
+
+.screen__toggle {
+    position: absolute;
+    width: 122px;
+    height: 44px;
+    left: 151px;
+    right: 150px;
+    top: 52px;
+    background: rgba(169, 220, 253, 1);
+    border-radius: 40px;
+  }
+  
+  .screentoggle__ligth-icon {
+    position: absolute;
+    width:68px;
+    height: 44px;
+    top:0px;
+    right: 57px;
+    border-radius: 40px;
+    text-align: center;
+    background-color: #d8eeff;
+  }
+  .screentoggle__dark-icon {
+    position: absolute;
+    width: 29.74px;
+    height: 29.74px;
+    left: 78px;
+    right: 10px;
+    top: 9px;
+  }
+  .screen__output{
+    position: absolute;
+    grid-column: 1 / -1;
+    
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    justify-content: space-around;
+    left: 0;
+    width: 410px;
+    top: 200px;
+    padding: .75rem;
+    word-wrap: break-word;
+    word-break: break-all;
+   
+  }
+ .screen__output .screen__input{
+    color: black;
+    font-size: 2.5rem;
+  }
+.screen__output .screen__result{
+  color: black;
+  font-size: 3rem;
+}

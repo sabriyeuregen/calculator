@@ -1,38 +1,190 @@
-.App {
-  text-align: center;
+.wrapper{
+  position: relative;
+    width: 423px;
+    height: 858px;
+    
+    background: linear-gradient(166.34deg, #FEFEFE 0%, #F9F9F9 12.84%, #F3F3F3 32.53%, #E5E5E5 100%);
+    border-radius: 40px;
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
+.buttons__wrapper{
+  position: absolute;
+  width: 423px;
+  height: 507px;
+  left: 0px;
+  top: 351px;
+  
+  filter: drop-shadow(0px -5px 70px rgba(0, 0, 0, 0.1));
+  border-radius: 30px;
+  background: rgba(75, 148, 190, 0.2);
+  box-shadow: 0px -5px 70px rgba(0, 0, 0, 0.1);
+  border-radius: 30px;
   }
+.buttonbox{
+  position: absolute;
+  background: rgba(255, 255, 255, 0.3);
+  box-shadow: 0px 3px 15px rgba(0, 0, 0, 0.05);
+  width: 320px;
+  height: 300px;
+  top:140px;
+  border-radius: 40px;
+}
+.buttonbox__list{
+width: 100%;
+height: calc(100% - 110px);
+display: grid;
+grid-template-columns: repeat(3, 1fr);
+grid-template-rows: repeat(5, 1fr);
+grid-gap: 5px;
+  
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.logicbuttons {
+  position: absolute;
+  width: 70px;
+  height: 430px;
+  left: 319px;
+  top: 40px;
+  border-style: none;
+  cursor: pointer;
+  color: #373737;
+  background-color: rgba(255, 255, 255, 0.3);
+  box-shadow: 0px 3px 15px rgba(0, 0, 0, 0.05);
+  border-radius: 40px;
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  justify-content: space-between;
 }
-
-.App-link {
-  color: #61dafb;
+.logicbuttons__divide {
+  width: 70px;
+  height: 70px;
+  background-color: rgba(255, 255, 255, 0.3);
+  color: #373737;
+  border-style: none;
+  cursor: pointer;
+  border-radius: 40px;
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 26px;
+  line-height: 39px;
+  
 }
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.logicbuttons__impact {
+  width: 70px;
+  height: 70px;
+  background-color: rgba(255, 255, 255, 0.3);
+  color: #373737;
+  border-style: none;
+  cursor: pointer;
+  border-radius: 40px;
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 26px;
+  line-height: 39px;
+}
+.logicbuttons__removal {
+  width: 70px;
+  height: 70px;
+  background-color: rgba(255, 255, 255, 0.3);
+  color: #373737;
+  border-style: none;
+  cursor: pointer;
+  border-radius: 40px;
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 26px;
+  line-height: 39px;
+}
+.logicbuttons__addition {
+  width: 70px;
+  height: 70px;
+  background-color: rgba(255, 255, 255, 0.3);
+  color: #373737;
+  border-style: none;
+  cursor: pointer;
+  border-radius: 40px;
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 26px;
+  line-height: 39px;
+}
+.logicbuttons__equal {
+  width: 70px;
+  height: 70px;
+  background-color: rgba(255, 255, 255, 0.3);
+  color: #373737;
+  border-style: none;
+  cursor: pointer;
+  border-radius: 40px;
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 26px;
+  line-height: 39px;
+}
+.topbuttons {
+  position: absolute;
+  width: 260px;
+  height: 70px;
+  left: 34px;
+  top: 47px;
+  background: rgba(255, 255, 255, 0.3);
+  box-shadow: 0px 3px 15px rgba(0, 0, 0, 0.05);
+  border-radius: 40px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  text-align: center;
+}
+.topbuttons__ac {
+  position: absolute;
+  width: 70px;
+  height: 70px;
+  left: 14px;
+  border-radius: 40px;
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 26px;
+  line-height: 39px;
+  border-style: none;
+  background-color:rgba(255, 255, 255, 0.3);
+  cursor: pointer;
+}
+.topbuttons__sign {
+  position: absolute;
+  width: 70px;
+  height: 70px;
+  left: 109px;
+  border-radius: 40px;
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 26px;
+  line-height: 39px;
+  background-color: rgba(255, 255, 255, 0.3);
+  color: #373737;
+  border-style: none;
+  cursor: pointer;
+}
+.topbuttons__mod {
+  position: absolute;
+  width: 70px;
+  height: 70px;
+  left: 200px;
+  border-radius: 40px;
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 26px;
+  line-height: 39px;
+  background-color: rgba(255, 255, 255, 0.3);
+  color: #373737;
+  border-style: none;
+  cursor: pointer;
 }
