@@ -1,16 +1,16 @@
 .buttons__value {
-    width: 70px;
-    height: 70px;
-    border-style: none;
-    background: rgba(255, 255, 255, 0.3);
-    border-radius: 40px;
-    flex: none;
-    order: 0;
-    flex-grow: 0;
-    cursor: pointer;
-    font-family: 'Poppins';
-    font-style: normal;
-    font-weight: 600;
-    font-size: 26px;
-    line-height: 39px;
-  }
+  width: 70px;
+  height: 70px;
+  border-style: none;
+  background: rgba(255, 255, 255, 0.3);
+  border-radius: 40px;
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+  cursor: pointer;
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 26px;
+  line-height: 39px;
+}

@@ -1,41 +1,60 @@
-.wrapper{
-  position: relative;
-    width: 423px;
-    height: 858px;
-    
-    background: linear-gradient(166.34deg, #FEFEFE 0%, #F9F9F9 12.84%, #F3F3F3 32.53%, #E5E5E5 100%);
-    border-radius: 40px;
+.App {
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
-.buttons__wrapper{
+.getlocalstorage {
+  order: 1;
+  width: 300px;
+  margin: 20px;
+  border-radius: 10px;
+  overflow: hidden;
+  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+  transition: all 0.33s ease-in-out;
+}
+.wrapper {
+  position: relative;
+  width: 423px;
+  height: 858px;
+
+  background: linear-gradient(
+    166.34deg,
+    #fefefe 0%,
+    #f9f9f9 12.84%,
+    #f3f3f3 32.53%,
+    #e5e5e5 100%
+  );
+  border-radius: 40px;
+}
+.buttons__wrapper {
   position: absolute;
   width: 423px;
   height: 507px;
   left: 0px;
   top: 351px;
-  
+
   filter: drop-shadow(0px -5px 70px rgba(0, 0, 0, 0.1));
   border-radius: 30px;
-  background: rgba(75, 148, 190, 0.2);
+  background: #a9dcfd;
   box-shadow: 0px -5px 70px rgba(0, 0, 0, 0.1);
   border-radius: 30px;
-  }
-.buttonbox{
+}
+.buttonbox {
   position: absolute;
-  background: rgba(255, 255, 255, 0.3);
   box-shadow: 0px 3px 15px rgba(0, 0, 0, 0.05);
   width: 320px;
   height: 300px;
-  top:140px;
+  top: 140px;
   border-radius: 40px;
+  left: 20px;
 }
-.buttonbox__list{
-width: 100%;
-height: calc(100% - 110px);
-display: grid;
-grid-template-columns: repeat(3, 1fr);
-grid-template-rows: repeat(5, 1fr);
-grid-gap: 5px;
-  
+.buttonbox__list {
+  width: 100%;
+  height: calc(100% - 110px);
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(5, 1fr);
+  grid-gap: 7px;
 }
 
 .logicbuttons {
@@ -68,7 +87,6 @@ grid-gap: 5px;
   font-weight: 600;
   font-size: 26px;
   line-height: 39px;
-  
 }
 .logicbuttons__impact {
   width: 70px;
@@ -153,7 +171,7 @@ grid-gap: 5px;
   font-size: 26px;
   line-height: 39px;
   border-style: none;
-  background-color:rgba(255, 255, 255, 0.3);
+  background-color: rgba(255, 255, 255, 0.3);
   cursor: pointer;
 }
 .topbuttons__sign {
