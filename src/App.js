@@ -44,7 +44,7 @@ const App = () => {
             <Buttons
               className="topbuttons__sign"
               handleClick={addToInput}
-              symbol="+"
+              symbol="+/-"
             >
               +/-
             </Buttons>
